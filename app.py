@@ -6,3 +6,6 @@ def test_greet_student():
 
 if __name__ == "__main__":
     print(greet_student("Student"))
+
+def validate_student(name):
+    return name != ""
