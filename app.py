@@ -9,3 +9,6 @@ if __name__ == "__main__":
 
 def validate_student(name):
     return name != ""
+
+def validate_student_email(email):
+    return "@" in email and "." in email
